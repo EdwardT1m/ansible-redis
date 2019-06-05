@@ -8,6 +8,7 @@ Installs [Redis](http://redis.io/) on Linux.
 
 ## Requirements
 On Ubuntu:
+
     sudo add-apt-repository ppa:ansible/ansible
     sudo apt update
     sudo apt install ansible -y
