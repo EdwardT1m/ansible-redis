@@ -1,7 +1,4 @@
-#Minimum Ansible Version 2.4
-sudo add-apt-repository ppa:ansible/ansible
-sudo apt update
-sudo apt install ansible -y
+# Minimum Ansible Version 2.4
 
 # Ansible Role: Redis
 
@@ -10,7 +7,11 @@ sudo apt install ansible -y
 Installs [Redis](http://redis.io/) on Linux.
 
 ## Requirements
-
+On Ubuntu:
+    sudo add-apt-repository ppa:ansible/ansible
+    sudo apt update
+    sudo apt install ansible -y
+    
 On RedHat-based distributions, requires the EPEL repository (you can simply add the role `geerlingguy.repo-epel` to install ensure EPEL is available).
 
 ## Role Variables
