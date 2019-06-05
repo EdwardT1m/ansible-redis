@@ -1,0 +1,2 @@
+[redis]
+<redis-hostname> ansible_host=<host> ansible_user=root
